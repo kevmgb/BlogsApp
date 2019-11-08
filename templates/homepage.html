@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Homepage</title>
-    </head>
-    <body>
-        <h1>This is the homepage</h1>
-        <p>Welcome to Djangonautic</p>
-    </body>
-</html>
+{% extends 'base_layout.html' %}
+
+{% block content %}
+<div class="homepage">
+        <h1>Welcome to Notify!</h1>
+        <h2> The most customizable Note taking app 
+            for keeping track of your activities.</h2>
+        
+        <form class="get-started" action="/accounts/signup/" method="GET">
+            <input type="submit" value="Get started today"
+                name="start" id="frm1_submit" />
+        </form>
+</div>
+{% endblock %}

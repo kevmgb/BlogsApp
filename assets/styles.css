@@ -144,3 +144,30 @@ a.highlight{
     border-radius: 4px;
     margin: 10px 0;
 }
+
+.get-started input{
+    background: #00dba0;
+    border: 0;
+    color: #000;
+    font-size: 1.2em;
+    border-radius: 10px;
+    display:block;
+    margin-top: 60px;
+    border: 1px solid #00dba0;
+    padding: 13px;
+    cursor:pointer;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.homepage h1{
+    text-align: center;
+    font-style:normal;
+    color: #00dba0;
+}
+
+.homepage h2{
+    padding: 10px;
+    text-align: center;
+}

@@ -1,7 +1,8 @@
 {% extends 'base_layout.html' %}
 
 {%block content%}
-        <h1>Article List</h1>
+        <h1>Your Notes</h1>
+        {% if user.is_authenticated %}
         <div class="articles">
             {% for article in articles %}
             <div class="article">
@@ -12,4 +13,7 @@
             </div>
             {% endfor %}
         </div>
+        {% else %}
+        <p>Login to view your notes</p>
+        {% endif %}
 {% endblock%}
