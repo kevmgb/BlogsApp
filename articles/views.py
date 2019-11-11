@@ -10,6 +10,7 @@ from . import forms
 
 def article_list(request):
     articles = Article.objects.all().order_by('date')
+    #user_article = Article.objects.filter(author)
     return render(request,'articles/article_list.html', {'articles': articles})
 
 
