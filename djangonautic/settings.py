@@ -25,7 +25,7 @@ SECRET_KEY = '1=ogcf#6cer7w9!yjvk+iyph8_v-p!w9iy#^et&p#w*%)aa(0b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['no-tify-app.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['no-tify.herokuapp.com','127.0.0.1']
 
 
 # Application definition
